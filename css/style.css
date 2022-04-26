@@ -34,25 +34,21 @@ section {
 /*Prealoader*/
 
 #preloader {
-    background-color: #ffffff;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    background-color: #222222;
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 32px);
+    width: 64px;
+    height: 64px;
     z-index: 9999;
 }
 
 #status {
     background-image: url("../img/preloader/preloader-img.gif");
     background-repeat: no-repeat;
-    width: 70px;
-    height: 70px;
+    width: 100%;
+    min-height: 500px;
     position: absolute;
-    left: 50px;
-    top: 50px;
-    margin-top: -35px;
-    margin-left: -35px;
 }
 
 

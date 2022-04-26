@@ -4,7 +4,7 @@
 ========================================== */
 $(window).on('load', function() {
     $('#status').fadeOut();
-    $('#preloader').delay(1000).fadeOut('slow');
+    $('#preloader').delay(4000).fadeOut('slow');
 });
 /*========================================
         Team
